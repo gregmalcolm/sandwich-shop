@@ -6,9 +6,9 @@
 
   render: ->
     React.DOM.div
-      class:"text-field"
+      className:"text-field"
       React.DOM.input
         id: @props.element
         type: 'text'
-        class: 'text-inpt'
+        className: 'text-inpt'
         onChange: @console
